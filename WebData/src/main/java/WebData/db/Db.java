@@ -14,7 +14,7 @@ public class Db {
 			return md;
 		MongoClient mo = new MongoClient("localhost",27017);
 		md = mo.getDatabase("mydb");
-		log.info("Connected to mydb lossg ok");
+		log.info("Connected to myddb lossg ok");
 		return md;
 	}
 	
